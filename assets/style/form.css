@@ -1,0 +1,74 @@
+
+body{
+    
+    background-color: #f1f3f8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+
+    background-color: cadetblue;
+    color: #222427;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #222427;
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.title{
+    /* background-color:darkgray; */
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    
+}
+input,textarea,address{
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 3px;
+    box-shadow:0 0 10px 4px rgba(0,0,0,0.06);
+}
+#name,#email,#address,#password,#confirm_password,#mobile,#submit,#category,#price,#weight,#offer_price,#is_available{
+    width: 270px;
+    height: 20px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 2px 2px #222427;
+    border-bottom: 2px solid #f1f3f8;
+    
+    
+}
+*:focus {
+    background-color:rgb(206, 218, 235);
+  }
+  .center{
+   text-align: center;
+   font-size: small;
+  }
+  .right{
+      text-align: right;
+      font-size: small;
+      padding-right: 8px;
+  }
+  .btn{
+    font-size: 15px;
+    /* width: 20px; */
+    
+  }
+  input[type=submit]:hover {
+    background-color: #c5e2c7;
+  }
+  #submit{
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 4px;
+    
+}
